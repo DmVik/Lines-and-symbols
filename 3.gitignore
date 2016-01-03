@@ -1,0 +1,13 @@
+
+public class tests {
+
+	public static void main(String[] args) {
+		
+		
+		String mjQuare = "bla bla";
+		System.out.println(mjQuare.charAt(mjQuare.length()-1));
+		
+		
+	}
+
+}
