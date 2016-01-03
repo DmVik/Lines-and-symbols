@@ -1,0 +1,29 @@
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+public class tests {
+
+	public static void main(String[] args) {
+		String s="мама мыла";
+		System.out.println(s);
+		
+		String q="раму";
+		System.out.print(s +" "+ q);
+		
+		double w=10.5;
+		System.out.println(s+" "+q+" "+w+" раз");
+		
+		System.out.println(" ");
+	}
+
+}
