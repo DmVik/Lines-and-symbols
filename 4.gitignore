@@ -1,0 +1,10 @@
+
+public class lesson01 {
+
+	public static void main(String[] args) {
+		String mjQuote="I'm filed over and over and over again in my life and that is why I succeed!";
+		System.out.println(mjQuote.substring(mjQuote.length()-8, mjQuote.length()));
+
+	}
+
+}
